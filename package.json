@@ -7,9 +7,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "jest --passWithNoTests",
-    "test:watch": "jest -- --watch",
-    "test:staged": "jest -- -- findRelatedTests",
-    "test:ci": "jest -- --coverage"
+    "test:watch": "yarn test -- --watch",
+    "test:staged": "yarn test -- -- findRelatedTests",
+    "test:ci": "yarn test -- --coverage"
   },
   "dependencies": {
     "react": "^18.0.0",
