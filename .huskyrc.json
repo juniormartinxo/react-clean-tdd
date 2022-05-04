@@ -1,4 +1,5 @@
 {
-  "pre-commit": "lint-staged",
-  "pre-push": "test:ci"
+  "hooks": {
+    "pre-commit": "lint-staged"
+  }
 }
